@@ -1,0 +1,7 @@
+/* HomePage.css */
+
+.homepage {
+  background-color: #111;
+  min-height: 100vh;
+  padding-top: 60px; /* Espaço para a barra de navegação */
+}

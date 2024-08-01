@@ -1,0 +1,25 @@
+/* MovieRow.css */
+
+.movie-row {
+  width: 100%;
+  padding: 20px;
+}
+
+.movie-row h2 {
+  margin-left: 20px;
+}
+
+.movie-row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.movie-row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-row__posters > .movie-card {
+  margin-right: 10px;
+}

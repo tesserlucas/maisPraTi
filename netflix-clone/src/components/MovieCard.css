@@ -1,0 +1,25 @@
+/* MovieCard.css */
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-card h3 {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}

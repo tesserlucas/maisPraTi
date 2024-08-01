@@ -1,0 +1,41 @@
+/* NavBar.css */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.nav__logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 100px;
+}
+
+.nav__search {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.nav__button {
+  color: white;
+  text-decoration: none;
+  background-color: #e50914;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
