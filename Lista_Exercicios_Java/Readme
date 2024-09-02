@@ -1,0 +1,24 @@
+# Simulações Java
+
+Este repositório contém os exercícios em Java da Lista de Exercícios sobre Estrutura de Dados, que foi proposta pelo Professor do curso que estou fazendo de Full Stack da (+praTi)
+
+## Conteúdo
+
+- `PrintManagerApp.java`: Sistema de gerenciamento de impressões.
+- `TextEditorApp.java`: Editor de texto com funcionalidades de desfazer e refazer.
+- `ProcessQueueSimulator.java`: Simulador de fila de processos prontos para execução em um sistema operacional.
+
+## Pré-requisitos
+
+Para executar esses programas, você precisará do Java Development Kit (JDK) instalado em seu sistema. O JDK pode ser baixado e instalado a partir do [site oficial da Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+
+## Como Executar
+
+Cada arquivo é um programa independente. Siga as instruções abaixo para compilar e executar cada um deles.
+
+### Compilação
+
+Abra um terminal ou prompt de comando e navegue até o diretório onde o arquivo `.java` está salvo. Use o seguinte comando para compilar o arquivo:
+
+```bash
+javac NomeDoArquivo.java
